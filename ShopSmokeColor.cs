@@ -43,7 +43,7 @@ namespace ShopSmokeColor
         {
             if (JsonSmokeColor == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Öâåòíîé äûì");
+            SHOP_API.CreateCategory(CategoryName, "Ð¦Ð²ÐµÑ‚Ð½Ð¾Ð¹ Ð´Ñ‹Ð¼");
 
             var sortedItems = JsonSmokeColor.Properties()
                 .Where(p => p.Value is JObject)
